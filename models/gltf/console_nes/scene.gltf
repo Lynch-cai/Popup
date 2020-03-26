@@ -1,0 +1,868 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "extensionsRequired" : [
+        "KHR_draco_mesh_compression"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                18
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Red_AV_lambert1_0"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Red_AV_NES_AV_R_Mat_0"
+        },
+        {
+            "mesh" : 2,
+            "name" : "Red_AV_NES_AV_S_Mat_0"
+        },
+        {
+            "children" : [
+                0,
+                1,
+                2
+            ],
+            "name" : "Red_AV"
+        },
+        {
+            "mesh" : 3,
+            "name" : "Yellow_AV_lambert1_0"
+        },
+        {
+            "mesh" : 4,
+            "name" : "Yellow_AV_NES_AV_S_Mat_0"
+        },
+        {
+            "mesh" : 5,
+            "name" : "Yellow_AV_NES_AV_Y_Mat_0"
+        },
+        {
+            "children" : [
+                4,
+                5,
+                6
+            ],
+            "name" : "Yellow_AV"
+        },
+        {
+            "children" : [
+                3,
+                7
+            ],
+            "name" : "AV"
+        },
+        {
+            "mesh" : 6,
+            "name" : "NES_Console_NES_Black_Mat_0"
+        },
+        {
+            "mesh" : 7,
+            "name" : "NES_Console_NES_DGray_Mat_0"
+        },
+        {
+            "mesh" : 8,
+            "name" : "NES_Console_NES_Gray_Mat_0"
+        },
+        {
+            "mesh" : 9,
+            "name" : "NES_Console_NES_PowerButton_Mat_0"
+        },
+        {
+            "children" : [
+                9,
+                10,
+                11,
+                12
+            ],
+            "name" : "NES_Console"
+        },
+        {
+            "children" : [
+                8,
+                13
+            ],
+            "name" : "NES_Group"
+        },
+        {
+            "children" : [
+                14
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                15
+            ],
+            "name" : "dd790c54232f4d5991ab9ee33e97b8c3.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                16
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "children" : [
+                17
+            ],
+            "name" : "RootNode (gltf orientation matrix)"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "lambert1",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "NES_AV_R_Mat",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.49000000953674316,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "NES_AV_S_Mat",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9330846071243286
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "NES_AV_Y_Mat",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.4059999883174896,
+                    0.4059999883174896,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "NES_Black_Mat",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.01764710061252117,
+                    0.01764710061252117,
+                    0.01764710061252117,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "NES_DGray_Mat",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "NES_Gray_Mat",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "NES_PowerButton_Mat",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6117650270462036,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8942628502845764
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Red_AV_lambert1_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 0,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1
+                            }
+                        }
+                    },
+                    "indices" : 2,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Red_AV_NES_AV_R_Mat_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 1,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1
+                            }
+                        }
+                    },
+                    "indices" : 5,
+                    "material" : 1,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Red_AV_NES_AV_S_Mat_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7,
+                        "TEXCOORD_0" : 8
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 2,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 8
+                            }
+                        }
+                    },
+                    "indices" : 9,
+                    "material" : 2,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Yellow_AV_lambert1_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 10,
+                        "NORMAL" : 11
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 3,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1
+                            }
+                        }
+                    },
+                    "indices" : 12,
+                    "material" : 0,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Yellow_AV_NES_AV_S_Mat_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 13,
+                        "NORMAL" : 14,
+                        "TEXCOORD_0" : 15
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 4,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 15
+                            }
+                        }
+                    },
+                    "indices" : 9,
+                    "material" : 2,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "Yellow_AV_NES_AV_Y_Mat_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 16,
+                        "NORMAL" : 17
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 5,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1
+                            }
+                        }
+                    },
+                    "indices" : 5,
+                    "material" : 3,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "NES_Console_NES_Black_Mat_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 18,
+                        "NORMAL" : 19
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 6,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1
+                            }
+                        }
+                    },
+                    "indices" : 20,
+                    "material" : 4,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "NES_Console_NES_DGray_Mat_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 21,
+                        "NORMAL" : 22,
+                        "TEXCOORD_0" : 23
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 7,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 23
+                            }
+                        }
+                    },
+                    "indices" : 24,
+                    "material" : 5,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "NES_Console_NES_Gray_Mat_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 25,
+                        "NORMAL" : 26,
+                        "TEXCOORD_0" : 27
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 8,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1,
+                                "TEXCOORD_0" : 27
+                            }
+                        }
+                    },
+                    "indices" : 28,
+                    "material" : 6,
+                    "mode" : 4
+                }
+            ]
+        },
+        {
+            "name" : "NES_Console_NES_PowerButton_Mat_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 29,
+                        "NORMAL" : 30
+                    },
+                    "extensions" : {
+                        "KHR_draco_mesh_compression" : {
+                            "bufferView" : 9,
+                            "attributes" : {
+                                "POSITION" : 0,
+                                "NORMAL" : 1
+                            }
+                        }
+                    },
+                    "indices" : 31,
+                    "material" : 7,
+                    "mode" : 4
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "NES_AV_S_Mat_baseColor",
+            "uri" : "NES_AV_S_Mat_baseColor.jpeg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "NES_DGray_Mat_baseColor",
+            "uri" : "NES_DGray_Mat_baseColor.jpeg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "NES_AV_S_Mat_baseColor.jpeg",
+            "uri" : "NES_AV_S_Mat_baseColor.jpeg"
+        }
+    ],
+    "accessors" : [
+        {
+            "componentType" : 5126,
+            "count" : 37,
+            "max" : [
+                6.302356719970703,
+                -2.612710952758789,
+                -1.5689506530761719
+            ],
+            "min" : [
+                6.302356719970703,
+                -2.861607789993286,
+                -1.817847490310669
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 37,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 60,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 239,
+            "max" : [
+                6.61630916595459,
+                -2.631730079650879,
+                -1.5879693031311035
+            ],
+            "min" : [
+                6.437629699707031,
+                -2.8425889015197754,
+                -1.7988288402557373
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 239,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 900,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 143,
+            "max" : [
+                6.616827011108398,
+                -2.612710952758789,
+                -1.5689506530761719
+            ],
+            "min" : [
+                6.302356719970703,
+                -2.861607789993286,
+                -1.817847490310669
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 143,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 143,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 480,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 43,
+            "max" : [
+                6.302356719970703,
+                -3.1018834114074707,
+                -1.5689506530761719
+            ],
+            "min" : [
+                6.302356719970703,
+                -3.3507802486419678,
+                -1.817847490310669
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 43,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 60,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 143,
+            "max" : [
+                6.616827011108398,
+                -3.1018834114074707,
+                -1.5689506530761719
+            ],
+            "min" : [
+                6.302356719970703,
+                -3.3507802486419678,
+                -1.817847490310669
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 143,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 143,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 239,
+            "max" : [
+                6.61630916595459,
+                -3.1209025382995605,
+                -1.5879693031311035
+            ],
+            "min" : [
+                6.437629699707031,
+                -3.331761360168457,
+                -1.7988288402557373
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 239,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 6719,
+            "max" : [
+                5.167932033538818,
+                4.645439147949219,
+                -0.010905623435974121
+            ],
+            "min" : [
+                2.90574049949646,
+                -5.251978397369385,
+                -4.514740467071533
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 6719,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 11844,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 11292,
+            "max" : [
+                6.886142253875732,
+                4.892632007598877,
+                -0.010905623435974121
+            ],
+            "min" : [
+                -6.754037857055664,
+                -5.251977920532227,
+                -2.322746992111206
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 11292,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 11292,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 27438,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 11121,
+            "max" : [
+                6.886142253875732,
+                4.761677265167236,
+                -2.322746753692627
+            ],
+            "min" : [
+                -6.754037857055664,
+                -5.251977920532227,
+                -4.514740943908691
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 11121,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 11121,
+            "type" : "VEC2"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 24168,
+            "type" : "SCALAR"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 30,
+            "max" : [
+                -4.798224449157715,
+                4.670540809631348,
+                -1.1104658842086792
+            ],
+            "min" : [
+                -4.8532633781433105,
+                4.658453941345215,
+                -1.1730434894561768
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5126,
+            "count" : 30,
+            "type" : "VEC3"
+        },
+        {
+            "componentType" : 5123,
+            "count" : 30,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 406,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1882,
+            "byteOffset" : 408
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1224,
+            "byteOffset" : 2292
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 424,
+            "byteOffset" : 3516
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1225,
+            "byteOffset" : 3940
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1882,
+            "byteOffset" : 5168
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24095,
+            "byteOffset" : 7052
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 50071,
+            "byteOffset" : 31148
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45586,
+            "byteOffset" : 81220
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 305,
+            "byteOffset" : 126808
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 127116,
+            "uri" : "scene.bin"
+        }
+    ]
+}
