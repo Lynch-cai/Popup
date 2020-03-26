@@ -64,6 +64,7 @@ canvas {
   opacity: 1;
   transition: 2s opacity ease;
   will-change: opacity;
+  text-align: center;
 }
 .container_intro .main_text_intro.blink {
   opacity: 0;
@@ -116,6 +117,7 @@ canvas {
 .container_intro .pedagogical_mention {
   position: absolute;
   top: 2.5vw;
+  text-align: center;
 }
 .container_intro.hide {
   opacity: 0;
