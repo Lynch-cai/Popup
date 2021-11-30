@@ -1,5 +1,8 @@
 This site is a project for the HETIC school. We were asked to create a museum in WebGL, so we decided to tackle the evolution of video game platforms from NINTENDO consoles. Nintendo consoles are a good reflection of the revolution that we've seen in the video game console sector thanks to the fact that the company has been around since their creation.
 
+Try here !
+https://popup.lynch-cai.com/
+
 To illustrate this evolution we chose 5 consoles:
 
 The Arcade Terminal: The first video game medium for the general public
@@ -21,9 +24,6 @@ Some objects are clickable and produce a sound.
 Mario's photo frame shows a photo of Nintendo's founder (who died in 2015) when you click on it.
 The posters produce a sound (pop culture) when you click on them.
 There is also several background music
-
-Try here !
-https://popup.lynch-cai.com/
 
 After watching the introduction the players are free to click on whatever they want:
 
